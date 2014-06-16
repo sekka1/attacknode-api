@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+      "express": "3.4.8",
+      "ejs": "*",
+      "stylus": "*",
+      "config": "0.4.35",
+      "yaml": "0.2.3",
+      "aws-sdk": "2.0.0-rc9",
+      "redis": "0.10.0",
+      "socket.io": "0.9.16",
+      "nodemailer": "0.6.1"
+  }
+}

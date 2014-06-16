@@ -1,0 +1,33 @@
+api:
+  env_name: dev_garland
+  api_host: 'localhost'
+  api_port: 8080
+  keystone_host: '192.168.59.103'
+  keystone_port_internal: 35357    # running in boot2docker: garland/docker-openstack-keystone
+  keystone_port_external: 5000
+  keystone_version: 'v2.0'
+  keystone_auth_token: '7a04a385b907caca141f'
+  aws_accessKeyId: AKIAJ4PCPKV4ZROEUSEA
+  aws_secretAccessKey: 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
+  aws_region: us-east-1
+  aws_DynamoDB_version: 2012-08-10
+  aws_dynamodb_table_users: attacknode_garland_users
+#  mq_provision_new_user: garland_provision_new_user
+#  aws_dynamodb_tablename_MonitorEvents: production_MonitorEvents
+
+#softlayer_mq:
+#  host: 'dal05.mq.softlayer.net'
+#  account_id: '5yeay'
+#  authToken: '4b1ada793e375c2b9350a03dc0c97856'
+
+#githubAuthentication:
+#  oauthToken: '39fe8077e723d3fc6a519c46be9e8167eafd75bf'
+
+#commandAndControl:
+#  redis_host: streams1.autodevbot.com
+#  redis_port: 6379
+
+autoDevBotEmailSetting:
+  service: 'SES'
+  SES_AWSAccessKeyID: 'AKIAIPD5OLF33E6K6KMQ'
+  SES_AWSSecretKey: '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'
